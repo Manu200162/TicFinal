@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun loadImage(imageView: ImageView,image:Int){
         if (image ==1){
-            //Todo cargar la imagen con el auto
+            imageView.setImageResource(R.drawable.empty)
         }else{
             //Todo cargar la imgagen sin el auto
         }
