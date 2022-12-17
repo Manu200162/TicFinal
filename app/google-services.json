@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "802002282519",
-    "project_id": "ticfinal-2f13d",
-    "storage_bucket": "ticfinal-2f13d.appspot.com"
+    "project_number": "293820808895",
+    "firebase_url": "https://parkingtic-15a30-default-rtdb.firebaseio.com",
+    "project_id": "parkingtic-15a30",
+    "storage_bucket": "parkingtic-15a30.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:802002282519:android:09492869cca13e8a351452",
+        "mobilesdk_app_id": "1:293820808895:android:27e3158ea4dfb87101100a",
         "android_client_info": {
           "package_name": "com.upb.ticfinal"
         }
       },
       "oauth_client": [
         {
-          "client_id": "802002282519-fherp1r72f41l244h4rpe6vs7t8ivvkn.apps.googleusercontent.com",
+          "client_id": "293820808895-3h7m29jmkrm54dhg2vnh7vf51d5lsiju.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC5ZQVnGvCPBlub7VifsbJk8bqpDmKiYKw"
+          "current_key": "AIzaSyBJxgS8BI9d9J0MXdggkJFRDLz_3qRDNFI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "802002282519-fherp1r72f41l244h4rpe6vs7t8ivvkn.apps.googleusercontent.com",
+              "client_id": "293820808895-3h7m29jmkrm54dhg2vnh7vf51d5lsiju.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
