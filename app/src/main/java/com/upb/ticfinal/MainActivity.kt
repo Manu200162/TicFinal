@@ -13,6 +13,7 @@ import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import com.upb.ticfinal.databinding.ActivityMainBinding
+import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -54,15 +55,17 @@ class MainActivity : AppCompatActivity() {
                 }
 
             })
-
-
-
         }
 
     private fun loadImage(imageView: ImageView,s:Int,key:String,textView: TextView){
         if(s != states.get(key)){
             if (s ==1){
-                imageView.setImageResource(R.drawable.occuped1)
+                when((1..3).random()){
+                    1 ->{ imageView.setImageResource(R.drawable.occuped1) }
+                    2 ->{ imageView.setImageResource(R.drawable.occuped2)}
+                    3 ->{ imageView.setImageResource(R.drawable.occuped3)}
+                }
+
                 textView.visibility = View.GONE
                 with(states) { put(key, 1) }
             }else{
